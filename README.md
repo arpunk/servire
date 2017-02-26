@@ -18,6 +18,10 @@ $ cp _build/default/bin/servire $YOUR_LOCAL_PATH/bin
 ```
 
 ## Usage
+
+First you need to create a `sshd.pem` file and place it under
+`$HOME/.servire` directory.
+
 ```sh
 $ cd /tmp
 $ servire 9999
