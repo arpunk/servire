@@ -1,0 +1,18 @@
+{application, 'servire',
+ [{description, "Serve files via SFTP"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    crypto,
+    public_key,
+    ssh
+   ]},
+  {env, []},
+  {modules, []},
+
+  {contributors, ["Ricardo Lanziano"]},
+  {licenses, ["MIT"]},
+  {links, [{"GitHub", "https://github.com/arpunk/servire"}]}
+ ]}.
